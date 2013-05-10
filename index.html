@@ -3,8 +3,66 @@
 <head>
   <meta charset="UTF-8">
   <title>Jose Platero</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Raleway+Dots' rel='stylesheet' type='text/css'>
 </head>
 <body>
-  
+
+<!-- You must have at least the following:
+When sizing the main divs - (header, general info, content, sidebar and footer in my example) - use percentages.
+2 .html pages
+1 external .css file
+box-sizing:border-box;
+CSS Normalize
+Clearfix
+1 Dropdown navigation
+header div
+footer div
+Three divs that hold content (content and sidebar are two examples we have used so far)
+Two web fonts
+5 CSS typography styles (text shadow, font size, family, color, transform, etc..)
+box shadow
+relative positioning (maybe bump your sidebar blocks slightly outside the wrapper?)
+absolute positioning (maybe have a twitter bird floating in the sidebar?)
+twitter feed and/or facebook box (will show how to embed next class)
+1 background image
+2 links within the page
+1 Contact form (doesn't need to work)
+Bonus points for
+Complex / unique layout
+Multi level dropdown nav
+CSS Gradients
+Use of RGBA() of HSLA()
+Creative use of Borders and border radius
+CSS3 animations (We didn't cover this yet, but do a search) -->
+  <div class="wrapper">
+    <div class="header">
+      <div class="logo">
+        <img class ="flat" src="images/jplogo.png" alt="logo">
+        <img class ="shadow" src="images/jplogohover.png" alt="logo">
+      </div>
+       <div class="navbar"> 
+        <ul>
+          <li><a href="#summary">Summary</a></li>
+          <li><a href="#samples">Samples</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="">Blog</a></li>
+        </ul>
+       </div>
+    </div>
+    <div class ="summary">
+         <h2 id ="summary">Summary</h2>
+         <p>I am the summary</p>
+       </div>
+
+    <div class ="samples">
+         <h2 id ="samples">samples</h2>
+         <p>I am the summary</p>
+       </div>
+    
+  </div>
+
 </body>
 </html>

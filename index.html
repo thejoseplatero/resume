@@ -13,9 +13,9 @@
 <!-- You must have at least the following:
 When sizing the main divs - (header, general info, content, sidebar and footer in my example) - use percentages.
 2 .html pages
-1 external .css file
-box-sizing:border-box;
-CSS Normalize
+* 1 external .css file
+* box-sizing:border-box;
+* CSS Normalize
 Clearfix
 1 Dropdown navigation
 header div
@@ -38,30 +38,42 @@ Use of RGBA() of HSLA()
 Creative use of Borders and border radius
 CSS3 animations (We didn't cover this yet, but do a search) -->
   <div class="wrapper">
-    <div class="header">
-      <div class="logo">
-        <img class ="flat" src="images/jplogo.png" alt="logo">
-        <img class ="shadow" src="images/jplogohover.png" alt="logo">
-      </div>
-       <div class="navbar"> 
+    <div class="section header">
+      <div class="navbar"> 
+        <div class="logo">
+          <img class ="flat" src="images/jplogo.png" alt="logo">
+            <img class ="shadow" src="images/jplogohover.png" alt="logo">
+        </div>
+          
         <ul>
-          <li><a href="#summary">Summary</a></li>
-          <li><a href="#samples">Samples</a></li>
-          <li><a href="">Contact</a></li>
-          <li><a href="">Blog</a></li>
+         <li><a href="#profile">Profile</a></li>
+         <li><a href="#portfolio">portfolio</a></li>
+         <li><a href="">Contact</a></li>
+         <li><a href="">Blog</a></li>
         </ul>
-       </div>
+      </div>   
     </div>
-    <div class ="summary">
-         <h2 id ="summary">Summary</h2>
-         <p>I am the summary</p>
-       </div>
-
-    <div class ="samples">
-         <h2 id ="samples">samples</h2>
-         <p>I am the summary</p>
-       </div>
     
+ 
+    <div class ="section profile clearfix">
+         <h2 id ="profile">profile</h2>
+         <p>profile</p>
+    </div>
+
+
+    <div class ="section portfolio clearfix">
+          <h2 id ="profile">portfolio</h2>
+          <p>Portfolio</p>
+    </div>
+
+    <div class ="section contact">
+         <h2 id ="contact">Contact</h2>
+         <form action="">
+         <p>Contact Form</p>
+         <label for="email">email</label>
+         <input type="email" name="email" placeholder="example@email.com" required="true">
+         </form>
+    </div>
   </div>
 
 </body>

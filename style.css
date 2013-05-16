@@ -24,7 +24,7 @@ body{
     text-shadow:1px 1px 1px #white;
     color:white;
 }
-.section.header h2{
+.section.header h2, h3{
   text-align: center;
 }
 
@@ -37,7 +37,9 @@ width: 100%;
 margin:0 auto;
 }
 
-
+li {
+  list-style: none;
+}
 .navbar{
   position: fixed;
   width: 100%;
@@ -48,16 +50,28 @@ margin:0 auto;
       margin: 10px;
   }
   .navbar li{
-    list-style: none;
+    
     float:left;
     padding: 10px;
 
   }
- 
+ span.company{
+
+ }
+
+ span.company a {
+  text-decoration: none;
+  border-bottom: 2px solid rgb(131,232,152);
+  color:white;
+ }
+  span.company a:hover {
+
+ }
 
   .navbar a{
     text-decoration: none;
     display:block;
+    color:black;
   }
 
 .logo {
@@ -115,12 +129,27 @@ img.profile{
     .section.header h1{
       text-align: center;
       font-size: 80px;
+      
     }
+    .section.profile h1, h2{
+      line-height:1em;
+
+    }
+
 
 
 
   .section.profile {
     background: rgb(229,59,81);
+  }
+
+  .section.profile li{
+  
+  }
+
+  .section.profile ul{
+    width: 50%;
+    float:left;
   }
 
   .section.portfolio{

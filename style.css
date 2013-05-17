@@ -126,7 +126,7 @@ opacity:1;
   .section.header{
     padding: 0;
     width:100%;
-    background: rgba(60,181,181,0.6);
+/*    background: rgba(60,181,181,0.6);*/
     min-height:400px;
     background:url(images/josebanner.jpg);
     background-size: cover;
@@ -158,13 +158,21 @@ opacity:1;
 
  }
 
+.profile-image-wrapper{
+  min-height:280px;
+  width: 361px;
+  overflow: hidden;
+  border: 1px solid white;
+  margin: 0 auto;
+/*  border-radius: 50%;*/
 
+}
 .profile-image{
  background: url(images/joseprofile.jpg) center no-repeat;
  min-height: 300px;
- border-radius:3px;
+
  width: 361px;
- margin:0 auto;
+ margin:-20px auto;
 /* background-size: auto 225px;*/
  -webkit-transition: all 1s;
  z-index: 0;
@@ -173,6 +181,7 @@ opacity:1;
 
 .profile-image:hover{
  -webkit-transform: scale(1.05);
+
 }
 
   .section.profile {
@@ -223,5 +232,6 @@ opacity:1;
   /* contact */
 
   .section.contact {
-    background:rgb(236,108,32);
+  /*  background:rgb(236,108,32);*/
+      background: rgba(60,181,181,0.6);
   }

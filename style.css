@@ -28,7 +28,8 @@ body{
 }
 
 body.page-blog{
- /* tag your body class HTML with page name so you can target other pages*/
+ /* tag your body class HTML with page
+  name so you can target other pages*/
 }
 
 .wrapper{
@@ -54,67 +55,57 @@ li {
 
  /* navigation */
 .navbar{
+  margin-left: 20px;
+  margin-top:10px;
   position: fixed;
-  width: 100%;
-  background: rgba(255,254,255, 0.6);
+  width: 360px;
+  background: rgba(60,181,181,1);
   z-index:3;
+  float:left;
+  box-shadow: 0px 0px 20px rgba(255,255,255,1);
+  border: solid  1px white;
+  border-radius: 6px;
 
 }
   .navbar ul{
-      float: right;
+    margin-left:20px;
   
   }
   .navbar li{
-    float:left;
-    padding: 10px;
+    
+
 
   }
 
  .navbar a{
     text-decoration: none;
     display:block;
-    color:black;
+    color:white;
+    float:left;
+    padding: 10px 10px 20px 10px;
   }
 
 
 /* logo */
+
 .logo {
 position: absolute;
-top: 0px;
-left:  -10px;
-
+top: -30px;
+left:  -30px;
 }
 
 .logo img{
-  -webkit-transition: all 1s;  
-}
 
-img.shadow{
-opacity: 0;
-}
-
-.logo:hover img.shadow{
-opacity:1;
-} 
-/* logo */
-.logo {
-width: 20%;
-position: relative;
-margin-top:-20px;
-}
-
-.logo img{
-  padding:4px;
   position: absolute;
   -webkit-transition: all 1s;  
 }
 
 img.shadow{
-opacity: 0;
+opacity: 1;
 }
 
 .logo:hover img.shadow{
-opacity:1;
+opacity:0;
 }
 
 /* section - general  */
@@ -208,9 +199,9 @@ opacity:1;
 
   .section.portfolio{
     background: rgb(252,217,32);
-     background:url(images/windgirlcover.jpg);
+     background:url(images/catcover.jpg);
      background-size: cover;
-     min-height: 600px
+     min-height: 600px;
   }
 
 
@@ -220,6 +211,7 @@ opacity:1;
   border: 2px solid rgb(252,217,32);
   border: 8px solid white;
   height: 200px;
+  float:right;
 }
 
 /*ribbon*/
@@ -227,9 +219,15 @@ opacity:1;
    background: url(images/ribbon.png) center no-repeat;
    text-align: center;
    padding:60px ;
-   margin-top: -100px;
+   margin-top: -110px;
    position: relative;
    z-index:1;
+}
+
+/* message */ 
+.message{
+  border-radius: 5px 20px 5px;
+  background: #BADA55;
 }
 
 
@@ -237,9 +235,7 @@ opacity:1;
  .twitter-timeline{
   margin:0 auto 0;
   width:300px;
-
   display:block;
-
 
  }
 

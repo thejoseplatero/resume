@@ -57,7 +57,7 @@ li {
  /* navigation */
 .navbar{
   margin-left: 20px;
-  margin-top:10px;
+  margin-top:25px;
   position: fixed;
   width: 360px;
   background: rgba(60,181,181,1);
@@ -66,11 +66,12 @@ li {
   box-shadow: 0px 0px 20px rgba(255,255,255,1);
   border: solid  1px white;
   border-radius: 6px; 
+  padding-bottom: :;px;
 
 }
   .navbar ul{
     margin-left:20px;
-    margin-top:-10px;
+    margin-top:-34px;
   
   }
 
@@ -83,11 +84,12 @@ li {
     display:block;
     color:white;
     float:left;
-    padding: 10px 10px 30px 10px;
-  }
+    padding:  20px 10px;
+
+    }
 
   .navbar a:hover{
-     -webkit-transition: all 1s;  
+     /*font-size:20px;*/
   }
 
 
@@ -118,17 +120,16 @@ li {
 .section {
   width: 100%;
   float:left;
-  padding: 40px;
+  padding: 20px;
+  margin-top:-20px;
 }
 
   .section.header{
     padding: 0;
     width:100%;
-/*    background: rgba(60,181,181,0.6);*/
     min-height:400px;
     background:url(images/josebanner.jpg);
     background-size: cover;
-    /*position: relative;*/
   }
     .section.header h1{
       text-align: center;
@@ -139,34 +140,19 @@ li {
 /* profile */
 
 .section.profile h1, h2{
-  line-height:1em;
+  line-height:1.2em;
 
 }
 
- span.company{
-
- }
-
- span.company a {
-  text-decoration: none;
-  border-bottom: 2px solid rgb(131,232,152);
-  color:white;
- }
-  span.company a:hover {
-
- }
-
-.profile-image-wrapper{
+.image-wrapper{
   min-height:280px;
   width: 361px;
   overflow: hidden;
   box-shadow: 0px 0px 10px :;
   border-radius: 3px;
   margin: 0 auto;
-
-
 }
-.profile-image{
+.image{
  background: url(images/joseprofile.jpg) center no-repeat;
  min-height: 300px;
 
@@ -178,7 +164,7 @@ li {
 }
 
 
-.profile-image:hover{
+.image:hover{
  -webkit-transform: scale(1.25);
 
 
@@ -189,12 +175,14 @@ li {
   }
 
   .section.profile li{
-  
+    padding:0 40px 20px 40px;
   }
 
   .section.profile ul{
     width: 50%;
     float:left;
+    margin-top:-40px;
+
 
   }
 
@@ -230,10 +218,22 @@ li {
    z-index:1;
 }
 
-/* message */ 
-.message{
+/* leaf */ 
+.leaf{
   border-radius: 5px 20px 5px;
+  padding:20px;
   background: #BADA55;
+  width:200px;
+
+}
+/* highlight*/
+.highlight{
+  /*border-radius: 5px 20px 5px;*/
+  padding:20px;
+  margin-left:-20px;
+  background:rgb(236,108,32);
+
+
 }
 
 

@@ -28,11 +28,6 @@ body{
     color:white;
 }
 
-body.page-blog{
- /* tag your body class HTML with page
-  name so you can target other pages*/
-}
-
 .wrapper{
 width: 100%;
 margin:0 auto;
@@ -56,22 +51,23 @@ li {
 
  /* navigation */
 .navbar{
+  
   margin-left: 20px;
   margin-top:25px;
   position: fixed;
-  width: 360px;
+  width: 300px;
   background: rgba(60,181,181,1);
   z-index:3;
   float:left;
   box-shadow: 0px 0px 20px rgba(255,255,255,1);
   border: solid  1px white;
   border-radius: 6px; 
-  padding-bottom: :;px;
+
 
 }
   .navbar ul{
-    margin-left:20px;
-    margin-top:-34px;
+    padding-left:50px;
+    margin-top: 0px;
   
   }
 
@@ -89,22 +85,23 @@ li {
     }
 
   .navbar a:hover{
-     /*font-size:20px;*/
+    
   }
 
 
 /* logo */
 .logo {
   background: url(images/jplogo.png) center no-repeat;
-  position: relative;
-  top:30px;
-  left:-190px;
+  position: absolute;
   z-index:1;
   font-size:30px;
-  padding:200px;
   display:inline;
   text-transform: uppercase;
-  -webkit-transition: all 1s;  
+  -webkit-transition: all 1s; 
+  padding:50px 20px; 
+  top: -50px;
+  left:-20px;
+
 }
 
 .no-shadow{
@@ -148,7 +145,8 @@ li {
   min-height:280px;
   width: 361px;
   overflow: hidden;
-  box-shadow: 0px 0px 10px :;
+  box-shadow: 0px 0px 10px white;
+  border:4px solid white;
   border-radius: 3px;
   margin: 0 auto;
 }
@@ -191,22 +189,41 @@ li {
 
 /* portfolio */
 
-  .section.portfolio{
-    background: rgb(252,217,32);
+.section{
+     background: rgb(252,217,32);
      background:url(images/catcover.jpg);
      background-size: cover;
-     min-height: 600px;
+     min-height: 400px;
+     background-repeat: no-repeat;
+
+     background-attachment: fixed;
   }
 
-
-.section.portfolio img{
-  border-radius: 3px;
-  height: 100px;
-  border: 2px solid rgb(252,217,32);
-  border: 8px solid white;
-  height: 200px;
-  float:right;
+.section.portfolio{
+  min-height: 1000px;
 }
+
+
+
+.section.portfolio1{
+ 
+   background-image:url(images/windgirlcover.jpg);
+}
+.section.portfolio2{
+
+   background-image:url(images/hintalandscover.jpg);
+}
+
+.section.portfolio3{
+  
+   background-image:url(images/threesisterscover.jpg);
+}
+
+.section.portfolio4{
+
+   background-image:url(images/pelicancover.jpg);
+}
+
 
 /*ribbon*/
  .ribbon {
@@ -245,9 +262,51 @@ li {
 
  }
 
+ .leaf-box{
+    background:#BADA55;
+    border-radius: 5px 20px 5px;
+    width:361px;
+    border:4px solid white;
+    float:left;
+    padding: 4px;
+    position: relative;
+
+ }
+
   /* contact */
 
   .section.contact {
     background:rgb(236,108,32);
-    /*  background: rgba(60,181,181,0.6);*/
+  
+  }
+
+  .form{
+    margin:0 auto;
+    border: 4px solid white;
+    padding: 20px;
+    width:400px;
+    background:#BADA55;
+    font-size: 20px;
+    border-radius: 5px 20px 5px;
+    box-shadow: 0 0 5px;
+  }
+
+  .form label{
+   width:100%;
+   display:block;
+   padding-bottom:10px;
+  }
+  
+  .form input, .form textarea{
+    padding:10px;
+    margin-bottom:10px;
+    width:100%;
+  }
+  .footer{
+    text-align: center;
+    padding:20px;
+    min-height: 50px;
+    width:100%;
+    float:left;
+    background: rgba(60,181,181,1);
   }

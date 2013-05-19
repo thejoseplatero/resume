@@ -204,7 +204,7 @@ li {
 }
 .section.portfolio2{
 
-   background-image:url(images/hintalandscover.jpg);
+   background-image:url(images/waterbirdcover.jpg);
 }
 
 .section.portfolio3{
@@ -216,6 +216,17 @@ li {
 
    background-image:url(images/pelicancover.jpg);
 }
+
+.section.portfolio5{
+
+   background-image:url(images/hintalandscover.jpg);
+}
+
+.section.portfolio6{
+
+   background-image:url(images/catcover.jpg);
+}
+
 
 
 /*ribbon*/

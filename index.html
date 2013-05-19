@@ -13,33 +13,6 @@
 </head>
 <body>
 
-<!-- You must have at least the following:
-When sizing the main divs - (header, general info, content, sidebar and footer in my example) - use percentages.
-2 .html pages
-* 1 external .css file
-* box-sizing:border-box;
-* CSS Normalize
-*Clearfix
-1 Dropdown navigation
-* header div
-footer div
-Three divs that hold content (content and sidebar are two examples we have used so far)
-* Two web fonts
-* 5 CSS typography styles (text shadow, font size, family, color, transform, etc..)
-box shadow
-* relative positioning (maybe bump your sidebar blocks slightly outside the wrapper?)
-absolute positioning (maybe have a twitter bird floating in the sidebar?)
-* twitter feed and/or facebook box (will show how to embed next class)
-* 1 background image
-2 links within the page
-1 Contact form (doesn't need to work)
-Bonus points for
-Complex / unique layout
-Multi level dropdown nav
-CSS Gradients
-Use of RGBA() of HSLA()
-Creative use of Borders and border radius
-CSS3 animations (We didn't cover this yet, but do a search) -->
 
 
   <div class="wrapper">
@@ -47,7 +20,7 @@ CSS3 animations (We didn't cover this yet, but do a search) -->
     <div class="section header">
       <div class="navbar">  
        <a href="index.html"><h2 class ="logo">jp</h2></a>
-       <h2 class ="logo no-shadow">jp</h2>
+       <!-- <h2 class ="logo no-shadow">jp</h2> -->
        <ul>
          <li><a href="#profile">Profile</a></li>
          <li><a href="portfolio.html">Portfolio</a></li>
@@ -128,7 +101,7 @@ CSS3 animations (We didn't cover this yet, but do a search) -->
          <label for="email">email</label>
          <input type="email" name="email" placeholder="example@email.com" required="true">
          <label for="message">Message</label>
-         <textarea name="message" required="true" cols="20", rows="5"> </textarea>
+         <textarea name="message" required="true"> </textarea>
          <input type="submit">
          </form>
     </div>
